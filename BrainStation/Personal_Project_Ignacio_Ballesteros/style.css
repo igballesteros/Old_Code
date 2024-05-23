@@ -1,0 +1,419 @@
+/* 
+
+  Brainstation - Web Design Course
+  Personal Project
+  Name: Ignacio Ballesteros
+  Due: Dec1, 2021 by 9:30PM 
+
+  */
+
+/* Format */
+
+body {
+  margin: 0%;
+}
+
+nav {
+  top: 0;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: fixed;
+  background-color: white;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  height: 74vh;
+  background-image: url(/Jukebox_Challenge/hero-photo.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.headerFormat {
+  align-self: flex-start;
+  margin-left: 15%;
+  margin-right: 40%;
+}
+
+.planCards {
+  border: solid 2px;
+  border-radius: 3%;
+  width: 13rem;
+  height: 21rem;
+}
+
+.planCardsArrangement {
+  display: flex;
+  justify-content: center;
+}
+
+.section1 {
+  margin-bottom: 7%;
+}
+
+.section2 {
+  width: 100%;
+  height: 90vh;
+  background-image: url(/Jukebox_Challenge/about-photo.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardFormat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconFormat {
+  width: 18rem;
+  height: 15rem;
+}
+
+.section3 {
+  margin-bottom: 5%;
+}
+
+.albumContainer1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.album {
+  width: 15vw;
+  height: 15vw;
+  margin: 1rem;
+  display: block;
+}
+
+.album1 {
+  background-image: url(/Jukebox_Challenge/album1.png);
+  background-size: contain;
+  background-position: center;
+  order: 1;
+}
+
+.album2 {
+  background-image: url(/Jukebox_Challenge/album2.png);
+  background-size: contain;
+  background-position: center;
+  order: 2;
+}
+
+.album3 {
+  background-image: url(/Jukebox_Challenge/album3.png);
+  background-size: contain;
+  background-position: center;
+  order: 3;
+}
+
+.album4 {
+  background-image: url(/Jukebox_Challenge/album4.png);
+  background-size: contain;
+  background-position: center;
+  order: 4;
+}
+
+.album5 {
+  background-image: url(/Jukebox_Challenge/album5.png);
+  background-size: contain;
+  background-position: center;
+  order: 5;
+}
+
+.album6 {
+  background-image: url(/Jukebox_Challenge/album6.png);
+  background-size: contain;
+  background-position: center;
+  order: 6;
+}
+
+.container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: rgb(0, 170, 255);
+}
+
+.socialLogo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Style */
+
+.navLogo {
+  margin-left: 2vw;
+}
+
+.loginButton {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 0, 85);
+  border-color: rgb(255, 0, 85);
+  padding: 0.2vh 3vw 0.2vh 3vw;
+  border-radius: 9999px;
+  margin-right: 4vw;
+}
+
+.navSubButton {
+  background-color: rgb(255, 0, 85);
+  border-color: rgb(255, 0, 85);
+  padding: 1.5vh 5vw 1.5vh 5vw;
+  border-radius: 9999px;
+  margin-right: 1vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.buttonFormat {
+  padding: 1.5vh 2rem 1.5vh 2rem;
+  border-radius: 9999px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.whiteButtonText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: large;
+}
+
+.headerText {
+  font-size: x-large;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+}
+
+.text {
+  font-size: medium;
+  font-weight: 200;
+  font-family: "Outfit", sans-serif;
+}
+
+.sectionFormat {
+  text-align: center;
+}
+
+a {
+  margin-left: 10%;
+}
+
+.marginFormatTop {
+  margin-top: 0%;
+}
+
+.marginFormatBottom {
+  margin-bottom: 0.5vh;
+}
+
+.subHeaderText {
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+
+.cardText {
+  margin-top: 1.4rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cardLeft {
+  background-color: rgb(0, 170, 255);
+  border-color: rgb(0, 170, 255);
+}
+
+.blueButton {
+  background-color: rgb(0, 170, 255);
+  border-color: white;
+  border-width: medium;
+}
+
+.cardCenterPlan {
+  background-color: rgb(77, 77, 255);
+  border-color: rgb(77, 77, 255);
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.dBlueButton {
+  background-color: rgb(77, 77, 255);
+  border-color: white;
+  border-width: medium;
+}
+
+.cardRight {
+  background-color: rgb(102, 0, 204);
+  border-color: rgb(102, 0, 204);
+}
+
+.violetButton {
+  background-color: rgb(102, 0, 204);
+  border-color: white;
+  border-width: medium;
+}
+
+.cardCenter {
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: rgb(0, 170, 255);
+}
+
+p {
+  line-height: 70%;
+}
+
+.leftFooter {
+  margin-left: 2vw;
+}
+
+.rightFooter {
+  margin-right: 4vw;
+}
+
+/* Media Queries */
+
+@media (max-width: 1125px) {
+  header {
+    width: 100%;
+    height: 97rem;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .section1 {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+
+  .planCardsArrangement {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardCenterPlan {
+    margin: 7vh 0 7vh 0;
+  }
+
+  .planCards {
+    width: 100%;
+    height: 70rem;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconFormat {
+    width: auto;
+    height: auto;
+  }
+
+  .cardCenter {
+    margin: 2rem 0 2rem 0;
+  }
+
+  .section3 {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .albumContainer1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    margin: 0 0 0 0;
+  }
+
+  .album {
+    margin: 5vh 0 5vh 0;
+    height: 90vh;
+    width: 90%;
+    border: solid black;
+    border-radius: 7%;
+  }
+
+  footer {
+    height: 5vh;
+  }
+
+  .headerFormat {
+    font-size: xx-large;
+  }
+
+  .headerText {
+    font-size: xx-large;
+  }
+
+  .text {
+    font-size: xx-large;
+  }
+
+  .cardText {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .subHeaderText {
+    font-size: 1rem;
+  }
+
+  .cardHeaderText {
+    font-size: 2rem;
+  }
+
+  .buttonFormat {
+    padding: 4vh 10vw 4vh 10vw;
+    font-size: 36pt;
+  }
+}

@@ -1,0 +1,197 @@
+<!-- 
+
+  Brainstation - Web Design Course
+  Personal Project
+  Name: Ignacio Ballesteros
+  Due: Dec1, 2021 by 9:30PM
+
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jukebox Project</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500;700&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@100;200;500;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- nav section of the webpage
+         it is fixed, an it has three elements
+         two of the elements are buttons and one
+         is an image
+         flexbox is used to have the elements apart -->
+    <nav>
+      <div class="navLogo">
+        <img
+          src="/Jukebox_Challenge/jukebox-logo-blue.png"
+          alt="Jukebox blue logo" />
+      </div>
+      <div class="navButtons">
+        <button class="navSubButton">Subscribe</button>
+        <button class="loginButton">Log&nbsp;In</button>
+      </div>
+    </nav>
+    <!-- the header of the webpage
+         it has a background image and three elements
+         the image was provided by the course instructors
+         two elements are text and the third is a button
+        flexbox is used to position the elements in the desired position -->
+    <header id="header1">
+      <div class="headerFormat headerText white">
+        <h1>Millions of songs at your fingertips.</h1>
+        <h3 class="text white">Play any song, anywhere, on any device.</h3>
+        <button class="navSubButton whiteButtonText">Subscribe Today</button>
+      </div>
+      <div>
+        <a href="#section1" class="white text">Go to Plans</a>
+        <a href="#section3" class="white text">Go to Albums</a>
+      </div>
+    </header>
+    <!-- section one of the webpage
+         it has five elements
+         two of them are text and the other three are cards
+         the cards have eight elements of which seven are text and a button
+         the cards are position through the use of flexbox -->
+    <section id="section1" class="section1">
+      <div>
+        <h2 class="sectionFormat headerText marginFormatBottom blue">
+          Your music. Your way.
+        </h2>
+        <h4 class="sectionFormat text marginFormatTop">
+          Upgrade to premium and get your first 2 months free of charge!
+        </h4>
+      </div>
+      <div class="planCardsArrangement sectionFormat white">
+        <div class="planCards cardLeft">
+          <h2 class="headerText marginFormatBottom cardHeaderText">Basic</h2>
+          <h3 class="subHeaderText marginFormatTop cardHeaderText">Free</h3>
+          <div class="cardText">
+            <p>MP3 audio</p>
+            <p>100 songs</p>
+            <p>Ads every 10 minutes</p>
+            <p>Up to 1 user</p>
+            <p>1 device</p>
+          </div>
+          <button class="whiteButtonText buttonFormat blueButton">
+            Sign&nbsp;Up
+          </button>
+        </div>
+        <div class="planCards cardCenterPlan">
+          <h2 class="headerText marginFormatBottom cardHeaderText">Plus</h2>
+          <h3 class="subHeaderText marginFormatTop cardHeaderText">
+            $10/month
+          </h3>
+          <div class="cardText">
+            <p>16-bit audio</p>
+            <p>200 songs</p>
+            <p>No ads</p>
+            <p>Up to 3 users</p>
+            <p>2 devices</p>
+          </div>
+          <button class="whiteButtonText buttonFormat dBlueButton">
+            Sign&nbsp;Up
+          </button>
+        </div>
+        <div class="planCards cardRight">
+          <h2 class="headerText marginFormatBottom cardHeaderText">Premium</h2>
+          <h3 class="subHeaderText marginFormatTop cardHeaderText">
+            $20/month
+          </h3>
+          <div class="cardText">
+            <p>Lossness Hi-Fi audio</p>
+            <p>Unlimited songs</p>
+            <p>No ads</p>
+            <p>Up to 5 users</p>
+            <p>Unlimited devices</p>
+          </div>
+          <button class="whiteButtonText buttonFormat violetButton">
+            Sign&nbsp;Up
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- section two of the website
+         it has three elemets, and those elements have
+         two elements inside
+         flexbox is used to place elements -->
+    <section class="section2 white sectionFormat text">
+      <div class="iconFormat">
+        <div><img src="/Jukebox_Challenge/icon-1.png" alt="" /></div>
+        <h3>Stream to Any Device</h3>
+        <p class="marginFormatTop">
+          Play all your favourite music on any device. Anytime. Anywhere.
+        </p>
+      </div>
+      <div class="cardCenter iconFormat">
+        <div><img src="/Jukebox_Challenge/icon-2.png" alt="" /></div>
+        <h3>High Quality Audio</h3>
+        <p class="marginFormatTop">
+          Get the best sounding audio of any streaming service on the web.
+        </p>
+      </div>
+      <div class="iconFormat">
+        <div><img src="/Jukebox_Challenge/icon-3.png" alt="" /></div>
+        <h3>Millions of Songs</h3>
+        <p class="marginFormatTop">
+          Find all your favourite artists in our extensive music library.
+        </p>
+      </div>
+    </section>
+    <section id="section3" class="section3">
+      <div>
+        <div>
+          <h2 class="sectionFormat headerText marginFormatBottom blue">
+            All your favourite artists. In one place.
+          </h2>
+          <h4 class="sectionFormat text marginFormatTop">
+            Upgrade to premium and get your first 2 months free of charge!
+          </h4>
+        </div>
+        <div class="container">
+          <div class="albumContainer1">
+            <div class="album album1"></div>
+            <div class="album album2"></div>
+            <div class="album album3"></div>
+            <div class="album album4"></div>
+            <div class="album album5"></div>
+            <div class="album album6"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="leftFooter">
+        <img
+          src="/Jukebox_Challenge/jukebox-logo-white.png"
+          alt="Jukebox white logo" />
+      </div>
+      <div class="rightFooter">
+        <img
+          class="socialLogo"
+          src="/Jukebox_Challenge/social-fb.png"
+          alt="facebook logo" />
+        <img
+          class="socialLogo"
+          src="/Jukebox_Challenge/social-twitter.png"
+          alt="twitter logo" />
+        <img
+          class="socialLogo"
+          src="/Jukebox_Challenge/social-insta.png"
+          alt="instagram logo" />
+        <img
+          class="socialLogo"
+          src="/Jukebox_Challenge/social-vimeo.png"
+          alt="vimeo logo" />
+      </div>
+    </footer>
+  </body>
+</html>

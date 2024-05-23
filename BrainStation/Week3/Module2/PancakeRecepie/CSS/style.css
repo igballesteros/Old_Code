@@ -1,0 +1,19 @@
+h2 {
+  font-style: italic;
+}
+
+.subtitle {
+  color: blue;
+}
+
+.ingredients {
+  color: blue;
+}
+
+div {
+  color: green;
+}
+
+ol li {
+  color: indigo;
+}

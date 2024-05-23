@@ -1,0 +1,30 @@
+body {
+  color: #bbb;
+  width: 750px;
+  margin: 20px auto;
+  background-color: black;
+}
+.greenText {
+  color: green;
+}
+
+.blueText {
+  color: blue;
+}
+
+.example {
+  color: blue;
+  font-family: "Space Mono", monospace;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: darkred;
+}

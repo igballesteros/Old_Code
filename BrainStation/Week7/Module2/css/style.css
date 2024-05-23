@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  font-size: 90%;
+}
+
+body,
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body.component-example {
+  padding: 3rem;
+}
+
+body.component-example,
+body.component-example > * {
+  margin: 0 auto;
+  display: block;
+}
+
+body.component-example h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+body.component-example .card {
+  max-width: 21rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  max-width: 70rem;
+  padding: 0 2rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 15rem;
+}
+
+.content .card {
+  width: calc(33% - 1.5rem);
+}
+
+.btn {
+  color: white;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 10%;
+}
